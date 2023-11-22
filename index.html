@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>juzi_zhiyun之blog</title>
+    <link rel="stylesheet" href="button.css"/>
 </head>
+
 <body>
-    <dir style="text-align: center;">
-        <h1>juzi_zhiyun之blog</h1>
-        <br>hello world
-        
-    </dir>
-    <hr>
-    <dir>
-       <h2><strong>关于“三剑客”</strong></h2>
-        <dir> 
-            <h3>HTML学习</h3>
-            <br>a标签的超链接
-            <a href="http://www.hao123.com">青回</a>
-            <br>换行标签 br
-            <br><button style="color: violet;">可以点的粉色的按钮</button>
-                <button style="height: 300px;">可以点的很大的按钮</button>
-            <a href="https://www.w3school.com.cn/"><br>
-                <base target="_blank">
-                <button >可以打开新的学习网页的按钮</button>
-            </a>
-            <dir>
-            <br><p>一段使用code标签的代码</p><br>
-            <code lang="python">
-                print("hello world")
-            </code>
-            </dir>
-        </dir>
-        <dir>
-            <h3>css学习</h3>
-        </dir>
-        <dir>
-            <h3>JS学习</h3>
-        </dir>
-        <dir>
-        </dir>
-    </dir>
-    <dir style="text-align: right;">
+<div style="text-align: center" id="title">
+    <h1>juzi_zhiyun之blog</h1>
+    <br/>hello world
+</div>
+<hr/>
+<div id="center">
+    <h2><strong>关于“三剑客”</strong></h2>
+    <div>
+        <h3 id="html">HTML学习</h3>
+        <br/>a标签的超链接
+        <a href="http://www.hao123.com">青回</a>
+        <br/>换行标签 br
+        <br/>
+        <button style="color: violet">可以点的粉色的按钮</button>
+        <button style="height: 300px">可以点的很大的按钮</button>
+        <a href="https://www.w3school.com.cn/"
+        ><br/>
+            <base target="_blank"/>
+            <button>可以打开新的学习网页的按钮</button>
+        </a>
+        <div>
+            <br/>
+            <p>一段使用code标签的代码</p>
+            <br/>
+            <code lang="python"> print("hello world") </code>
+        </div>
+    </div>
+    <div id="css">
+        <h3>css学习</h3>
+        <div>
+            <a href="https://neumorphism.io/">半自动化按钮设计</a>
+            <button type="button" class="button_1" style="color: #0066ff">一个高级的按钮</button>
+        </div>
+
+        <h3 id="js">JS学习</h3>
+        <div><a href="jsdemo_1.html">jsdemo_1</a></div>
+        <div><a href="jsdemo_2.html">jsdemo_2</a></div>
+        <div><a href="jsevent.html" >js事件</a></div>
+
+
+    </div>
+    <div style="text-align: right" id="ending">
         <p>
-            <cite style="color: aquamarine;">输光光的一天</cite>
+            <cite style="color: aquamarine">输光光的一天</cite>
         </p>
-    </dir>
+    </div>
+  </div>
 </body>
 </html>

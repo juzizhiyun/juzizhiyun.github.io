@@ -1,0 +1,12 @@
+.button_1 {
+  border-radius: 35px;
+  background: linear-gradient(145deg, #c0ffff, #a1dce6);
+  box-shadow: 5px 5px 14px #81b0b8, -5px -5px 14px #e5ffff;
+}
+
+.button_2 {
+  border-radius: 100px;
+  background: #0040ff;
+  box-shadow: 5px 5px 0px #001a66, -5px -5px 0px #0066ff;
+}
+
